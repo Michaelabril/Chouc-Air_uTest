@@ -24,8 +24,7 @@ import com.utest.register.tasks.RegisterTaskThrid;
 
 public class RegisterStepDefinition {
 	
-	@Managed(driver="Chrome")
-	private WebDriver driver; 
+
 	
     @Before
     public void DoSomethingBefore(){
@@ -33,8 +32,8 @@ public class RegisterStepDefinition {
     }
 
 
-	@Given("^I am on the website$")
-	public void iAmOnTheWebsite() {
+	@Given("^the user is on the website$")
+	public void theUserIsOnTheWebsite() {
         theActorCalled("Michael");
         theActorInTheSpotlight().wasAbleTo(OpenHome.browser());
 	}

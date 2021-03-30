@@ -1,7 +1,7 @@
-Feature: User  registration on utest.com
+Feature: As a user, I can  create a new account on the utest platform
 
   Scenario: The user can register on the page with utest
-    Given I am on the website
+    Given the user is on the website
     When the user fills in the data of the first form
       | firstname | lastname | emailaddress             | dateofbirthmouth | dateofbirthday | dateofbirthyear |
       | Michael    | Abril  | maiicolabriil@hotmail.com | June              |             13 |            1994 |
