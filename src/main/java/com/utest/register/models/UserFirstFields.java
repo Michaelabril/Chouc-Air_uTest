@@ -8,10 +8,7 @@ public class UserFirstFields {
 	   String dateofbirthday;
 	   String dateofbirthyear;
 	   
-	   public UserFirstFields( String firstname,	String lastname,String emailaddress,
-	   String dateofbirthmouth, String dateofbirthday, String dateofbirthyear) {
-		   super();
-	   }
+
 
 	public String getFirstname() {
 		return firstname;

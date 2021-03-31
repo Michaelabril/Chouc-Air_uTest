@@ -1,14 +1,8 @@
 package com.utest.register.tasks;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isClickable;
-import static com.utest.register.userinterfaces.RegisterUserInterface.BTN_NEXTDEVICES;
-import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_CITY;
-import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_COUNTRY;
-import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_COUNTRY_LIST;
-import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_POSTALCODE;
-
+import static com.utest.register.userinterfaces.RegisterUserInterface.*;
 import java.util.List;
-
 import com.utest.register.models.UserSecond;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

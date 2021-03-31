@@ -1,19 +1,7 @@
 package com.utest.register.tasks;
 
-import static com.utest.register.userinterfaces.RegisterUserInterface.BIRTHDAY;
-import static com.utest.register.userinterfaces.RegisterUserInterface.BIRTHDAY_LIST;
-import static com.utest.register.userinterfaces.RegisterUserInterface.BIRTHMOUNTH;
-import static com.utest.register.userinterfaces.RegisterUserInterface.BIRTHMOUNTH_LIST;
-import static com.utest.register.userinterfaces.RegisterUserInterface.BITHYEAR;
-import static com.utest.register.userinterfaces.RegisterUserInterface.BITHYEAR_LIST;
-import static com.utest.register.userinterfaces.RegisterUserInterface.BTN_JOINTODAY;
-import static com.utest.register.userinterfaces.RegisterUserInterface.BTN_NEXTLOCATION;
-import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_EMAIL;
-import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_LASTNAME;
-import static com.utest.register.userinterfaces.RegisterUserInterface.TXT_NAME;
-
+import static com.utest.register.userinterfaces.RegisterUserInterface.*;
 import java.util.List;
-
 import com.utest.register.models.UserFirstFields;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

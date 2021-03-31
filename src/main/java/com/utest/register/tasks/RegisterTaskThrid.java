@@ -9,7 +9,6 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-
 import static com.utest.register.userinterfaces.RegisterUserInterface.*;
 
 public class RegisterTaskThrid  implements Task {
